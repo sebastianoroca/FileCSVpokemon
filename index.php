@@ -5,6 +5,28 @@
     <title>Tabella POKEMON CSV</title>
 </head>
 <body>
+<?php
+
+fgetcsv();
+$row[]
+
+
+'#' => (int)
+'Name' => (string)
+'Type 1' => (string)
+'Type 2' => (string)
+'Total' => (int)
+'HP' => (int)
+'Attack' => (int)
+'Defense' => (int)
+'Sp.Atk' => (int)
+'Sp.Def' => (int)
+'Speed' => (int)
+'Generation' => (int)
+'Legendary' => (bool)
+
+
+?>
 
 <?php
     $file = fopen("pokemon.csv", "r");
@@ -53,5 +75,5 @@
     fclose($file);
 ?>
 
-</body>
+</body> 
 </html>
